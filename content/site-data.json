@@ -1,0 +1,17 @@
+{
+  "_readme": "Everything you'll want to change later lives here — edit a line, save, refresh. No design knowledge needed.",
+  "business": {
+    "name": "TODO — Your name or business name",
+    "tagline": "TODO — one line about what you do",
+    "whatsapp": "91XXXXXXXXXX",
+    "whatsappMessage": "Hi! I found your website and I'd like to know more.",
+    "location": "TODO — your city",
+    "hours": "TODO — e.g. Mon–Sat, 10:00 AM – 7:00 PM"
+  },
+  "announcement": "",
+  "deeshaBadge": true,
+  "deeshaRef": "DSH-XXXXXX",
+  "services": [
+    { "name": "TODO — first service", "detail": "TODO — one sentence", "price": "" }
+  ]
+}

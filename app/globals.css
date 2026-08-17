@@ -1,0 +1,399 @@
+/* Your website's styles. Claude adds to this file as you build — with
+   comments so you can always find what changes what. */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #1c2430;
+  background: #fafaf7;
+}
+
+a { color: inherit; }
+
+/* ── Starter placeholder (Claude removes this section with the first real
+      homepage) ─────────────────────────────────────────────────────── */
+.starter {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+.starter-badge {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0e6f64;
+}
+.starter h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+.starter-tagline {
+  font-size: 1.2rem;
+  color: #555;
+}
+.starter-hint {
+  margin-top: 2rem;
+  max-width: 28rem;
+  color: #777;
+}
+.starter-brand {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #b8860b;
+}
+.starter-cta {
+  display: inline-block;
+  margin-top: 0.6rem;
+  background: #12203a;
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+  font: inherit;
+  font-weight: 700;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.starter-fine {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+/* ── The Playbook (dev-only workshop scaffolding) ─────────────────── */
+.pb {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+.pb-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.pb-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.pb-steps li {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  color: #999;
+}
+.pb-steps li.on {
+  border-color: #12203a;
+  background: #12203a;
+  color: #fff;
+}
+.pb-steps li.done {
+  border-color: #0e6f64;
+  color: #0e6f64;
+}
+.pb-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.pb-progress > span {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #12203a;
+}
+.pb-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: #e6e2d8;
+  overflow: hidden;
+}
+.pb-bar > div {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0e6f64, #e39b2c);
+  transition: width 0.3s ease;
+}
+.pb-tri {
+  font-size: 0.8rem;
+  color: #8a8578;
+  margin-top: -0.5rem;
+}
+.pb-tri-inline {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #948e80;
+  margin-left: 0.35rem;
+}
+@media (max-width: 640px) {
+  .pb-steps { display: none; }
+}
+.pb-body {
+  display: grid;
+  gap: 1.5rem;
+}
+@media (min-width: 860px) {
+  .pb-body {
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: start;
+  }
+}
+.pb-card {
+  background: #fff;
+  border: 1px solid #e5e2da;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.pb-card h1 { font-size: 1.8rem; }
+.pb-card h2 { font-size: 1.4rem; }
+.pb-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.pb-card input,
+.pb-card textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d5d2ca;
+  border-radius: 0.6rem;
+}
+.pb-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.pb-chips button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid #d5d2ca;
+  background: #fff;
+  cursor: pointer;
+}
+.pb-chips button.sel {
+  background: #12203a;
+  border-color: #12203a;
+  color: #fff;
+}
+.pb-layouts {
+  display: grid;
+  gap: 0.6rem;
+}
+@media (min-width: 560px) {
+  .pb-layouts { grid-template-columns: 1fr 1fr; }
+}
+.pb-layouts button {
+  font: inherit;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-radius: 0.7rem;
+  border: 1px solid #d5d2ca;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+.pb-layout-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.pb-layout-text > span { color: #777; font-size: 0.85rem; }
+.pb-layouts button.sel { border-color: #12203a; box-shadow: 0 0 0 2px #12203a; }
+.pb-fine { font-size: 0.85rem; color: #888; }
+.pb-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.pb-nav button {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid #d5d2ca;
+  background: #fff;
+  cursor: pointer;
+}
+.pb-nav button.next {
+  margin-left: auto;
+  background: #12203a;
+  border-color: #12203a;
+  color: #fff;
+}
+.pb-prompt {
+  background: #12203a;
+  color: #f5f2ea;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  position: sticky;
+  top: 1rem;
+}
+.pb-prompt h3 {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #e39b2c;
+  margin-bottom: 0.8rem;
+}
+.pb-prompt pre {
+  white-space: pre-wrap;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+.pb-saved { color: #0e6f64; font-weight: 700; }
+.pb-error { color: #b3261e; }
+.pb-reqs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1.2rem;
+}
+.pb-reqs li span { margin-right: 0.6rem; }
+.pb-reqs li button {
+  font: inherit;
+  border: 0;
+  background: none;
+  color: #b3261e;
+  cursor: pointer;
+}
+.pb-addreq {
+  display: flex;
+  gap: 0.5rem;
+}
+.pb-addreq input {
+  flex: 1;
+  font: inherit;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d5d2ca;
+  border-radius: 0.6rem;
+}
+.pb-addreq .pb-price { flex: 0 0 7.5rem; }
+.pb-feature {
+  border: 1px solid #e6e2d8;
+  border-left: 4px solid #0e6f64;
+  border-radius: 0.7rem;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.pb-palettes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.pb-palettes button {
+  font: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 0.6rem;
+  border: 1px solid #d5d2ca;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+}
+.pb-palettes button.sel { border-color: #12203a; box-shadow: 0 0 0 2px #12203a; }
+.pb-swatch {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.pb-palette-name { font-size: 0.82rem; }
+.pb-style-preview {
+  padding: 1.1rem 1.3rem;
+  transition: all 0.25s ease;
+}
+.pb-handoff {
+  border: 1px dashed #0e6f64;
+  border-radius: 0.8rem;
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  background: #f4faf8;
+}
+.pb-reset {
+  align-self: flex-start;
+  font: inherit;
+  font-size: 0.82rem;
+  color: #8a8578;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.pb-handoff-phrase {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #12203a;
+}
+.pb-addreq button {
+  font: inherit;
+  font-weight: 700;
+  padding: 0 1.3rem;
+  border-radius: 0.6rem;
+  border: 0;
+  background: #12203a;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ── The Deesha badge (toggle: deeshaBadge in site-data.json) ─────── */
+.deesha-badge {
+  position: fixed;
+  bottom: 0.9rem;
+  right: 0.9rem;
+  z-index: 50;
+  background: #12203a;
+  color: #f5f2ea;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  opacity: 0.92;
+}
+.deesha-badge:hover { opacity: 1; }
+@media (max-width: 560px) {
+  .deesha-badge {
+    font-size: 0.7rem;
+    bottom: 0.6rem;
+    right: 0.6rem;
+  }
+}
