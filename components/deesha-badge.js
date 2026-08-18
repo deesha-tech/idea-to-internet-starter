@@ -5,7 +5,7 @@ import siteData from '../content/site-data.json'
  * The owner switches it on or off with `deeshaBadge: true/false` in
  * content/site-data.json; `deeshaRef` (their workshop ticket code) rides
  * the link so referred visitors are credited to them.
- * (Claude: this component stays; only the owner toggles it.)
+ * (AI builder: this component stays; only the owner toggles it.)
  */
 export function DeeshaBadge() {
   if (!siteData.deeshaBadge) return null

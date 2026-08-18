@@ -1,17 +1,21 @@
 # Progress
 
-> Claude: read this first, every session. Only do work the current stage
-> allows. Update this file when a stage completes.
+> Claude and Codex: read your instruction file, `BUILD-CONTRACT.md` and every
+> shared state file before changing anything.
 
-Current stage: **Stage 1 — Blueprint interview**
+Current stage: **Stage 0 — Starter ready; GPT onboarding pending**
 
-- [ ] Stage 1 — Blueprint interview complete (`BLUEPRINT.md` filled)
-- [ ] Stage 1.5 — Foundation expanded into docs/ (requirements,
-      architecture, styleguide) and reviewed with me
-- [ ] Stage 1.75 — Design options previewed, one chosen (with mixes)
-- [ ] Stage 2 — Version one built and reviewed
-- [ ] Stage 3 — Professional polish pass done
-- [ ] Stage 4 — Works on every device (phone verified)
-- [ ] Stage 5 — Interactions added, content honest and final
-- [ ] Stage 6 — Live on the internet (GitHub + Vercel URL: ________ )
-- [ ] Stage 7 — My domain connected ( ____________ ) · launch checks green
+- [ ] Starter repository created from the Deesha template
+- [ ] Repository cloned and local starter verified
+- [ ] Repository connected to Vercel and baseline preview recorded
+- [ ] GPT onboarding and language choice complete
+- [ ] Website Intent Card approved
+- [ ] Website Blueprint and visual direction approved
+- [ ] Trainer Gate A approved
+- [ ] Version one built and reviewed
+- [ ] Professional refinement complete
+- [ ] Phone, tablet and desktop QA complete
+- [ ] Content and interaction QA complete
+- [ ] Trainer Gate C approved
+- [ ] Production deployment verified
+- [ ] Optional domain and launch checks complete

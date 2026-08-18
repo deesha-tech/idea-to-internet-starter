@@ -1,42 +1,39 @@
-# My Website Blueprint
+# Approved Website Blueprint
 
-> Filled in by Claude's interview (Stage 1). I answer, Claude writes.
-> This mirrors the paper blueprint from my workshop workbook — if I filled
-> that already, I can read my answers from it.
+> Paste the blueprint approved in the Deesha GPT here. This repository does not
+> interview you again. Claude or Codex builds approved tasks from this plan.
+
+Blueprint status: `Not approved`
 
 ## Purpose
-<!-- What should this website achieve? -->
+Not decided
 
 ## Audience
-<!-- Who should visit it? -->
+Not decided
 
 ## Primary call to action
-<!-- The ONE thing a visitor should do: Contact me · Book consultation ·
-     Request quote · View services · Register · Call now · WhatsApp us -->
+Not decided
 
 ## Pages
-<!-- Home · About · Services · Portfolio · Testimonials · FAQ · Contact -->
+Not decided
 
 ## Homepage sections, in order
-<!-- e.g. Hero → Trust → Services → About → Testimonials → FAQ → CTA → Footer -->
+Not decided
 
-## Brand direction
-<!-- one of: professional · minimal · modern · premium · creative · bold · friendly -->
+## Selected visual direction
+Not decided
 
-## Colours
-<!-- primary + accent -->
+## Required components
+Not decided
 
-## Typography feel
-<!-- e.g. clean and modern / classic and trustworthy / warm and friendly -->
+## Verified facts available for copy
+None supplied
 
-## Imagery style
-<!-- real photos I own / illustrations / minimal, few images -->
+## Content still required
+None recorded
 
-## The real facts
-<!-- True things about me/my business Claude may use in copy: name,
-     services, experience, location, timings, prices. ONLY these facts may
-     appear as claims on the site. -->
+## Included in this website
+Static marketing website
 
-## Later ideas (parked, not forgotten)
-<!-- Everything beyond this weekend's static site: payments, logins,
-     booking engines, integrations… -->
+## Parked for later
+None recorded

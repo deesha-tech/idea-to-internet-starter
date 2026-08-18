@@ -1,29 +1,24 @@
-import Link from 'next/link'
 import siteData from '../content/site-data.json'
 
-/**
- * The branded welcome — what every participant sees at the warm-up session
- * when `npm run dev` first works. Claude replaces this page with the real
- * homepage in Stage 2; the playbook stays at /playbook (dev-only).
- */
+/** The readiness screen is replaced only through an approved build task. */
 export default function Home() {
   return (
     <main className="starter">
       <p className="starter-brand">Idea to Internet · a Deesha SkillLab</p>
-      <p className="starter-badge">It works! 🎉</p>
+      <p className="starter-badge">Starter ready ✓</p>
       <h1>{siteData.business.name}</h1>
       <p className="starter-tagline">{siteData.business.tagline}</p>
-      <p className="starter-hint">
-        This is your website&rsquo;s starting point. First stop: the
-        playbook — answer its questions and watch your build prompt take
-        shape.
-      </p>
-      <Link href="/playbook" className="starter-cta">
-        Open my playbook →
-      </Link>
+      <div className="starter-panel">
+        <h2>Begin with your visual playbook</h2>
+        <p>
+          Answer a few simple foundation questions, copy the prompt it creates,
+          and paste it into the Deesha GPT. The GPT will then guide your design
+          and website decisions.
+        </p>
+        <a className="starter-action" href="/playbook">Open my Foundation Playbook →</a>
+      </div>
       <p className="starter-fine">
-        Already finished the playbook? Tell Claude:&nbsp;
-        <strong>“Read my blueprint and confirm before building.”</strong>
+        पुढची पायरी: visual playbook पूर्ण करा आणि तयार prompt GPT मध्ये paste करा.
       </p>
     </main>
   )
