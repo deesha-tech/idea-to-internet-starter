@@ -3,6 +3,17 @@
 Welcome! 🎉 This is your website's starting point, from the **Idea to
 Internet** SkillLab by [Deesha](https://www.deeshatechacademy.com).
 
+## First: choose your account setup language
+
+Open one guide and complete every readiness check before the workshop:
+
+- [English + मराठी account and laptop setup](ACCOUNT-SETUP-EN-MR.md)
+- [English + हिन्दी account and laptop setup](ACCOUNT-SETUP-EN-HI.md)
+- [English-only account and laptop setup](ACCOUNT-SETUP-EN.md)
+
+प्रथम तुमची language guide निवडा. पहले अपनी language guide चुनें। Each link
+opens the complete guide directly.
+
 ## First time here?
 
 1. Open this folder in **VS Code**.

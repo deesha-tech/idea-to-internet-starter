@@ -31,6 +31,12 @@ The loop is always:
 
 ### Step 1 — Keep your accounts ready
 
+Before continuing, complete one account and laptop setup guide:
+
+- [English + मराठी](ACCOUNT-SETUP-EN-MR.md)
+- [English + हिन्दी](ACCOUNT-SETUP-EN-HI.md)
+- [English only](ACCOUNT-SETUP-EN.md)
+
 You need:
 
 - a GitHub account;
