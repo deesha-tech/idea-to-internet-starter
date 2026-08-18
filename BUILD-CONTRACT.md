@@ -25,7 +25,11 @@ EXPLAIN -> BUILD -> PREVIEW -> APPROVE -> QC -> COMMIT -> PUSH -> VERCEL PREVIEW
 
 1. Explain the visible outcome and what stays unchanged.
 2. Build only the approved task; add no adjacent feature.
-3. Run the local site and give simple review instructions.
+3. Start or reuse the local development server. Verify that the page responds,
+   then provide the complete clickable local URL, normally
+   `http://localhost:3000`. Open that URL in the browser when browser control is
+   available; otherwise tell the Website Director exactly where to click. Do
+   not start a duplicate server when a healthy one is already running.
 4. Stop before committing and ask: `Love it - save online / Almost! One small change / Something looks suspicious`.
 5. After approval, run acceptance checks and relevant QC.
 6. Show the checkpoint summary and proposed commit message.
@@ -38,6 +42,9 @@ EXPLAIN -> BUILD -> PREVIEW -> APPROVE -> QC -> COMMIT -> PUSH -> VERCEL PREVIEW
 
 If evidence is missing, record `Not Verified` and stop. A push does not prove
 deployment success. Never promote a preview outside the final launch gate.
+Terminal output alone does not prove a local preview works. Confirm the page
+responds before saying it is ready. If the preferred port is occupied, reuse
+the healthy server or report the actual port selected by the framework.
 
 ## Checkpoint summary
 

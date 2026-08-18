@@ -15,7 +15,8 @@ Codex will:
 - synchronise the existing state files;
 - explain the approved outcome in five simple lines;
 - build only that outcome;
-- run checks and show the local preview;
+- start or reuse the app, verify it responds, provide the clickable local URL
+  and open it in the browser when supported;
 - stop before saving the Git checkpoint.
 
 ## Approve a checkpoint

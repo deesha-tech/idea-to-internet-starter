@@ -271,13 +271,18 @@ The pasted handoff tells the Developer to:
 3. repair stale derived progress automatically;
 4. explain what will change and stay unchanged;
 5. build only the approved task;
-6. run checks and show the local preview;
+6. start or reuse the app, verify it and show a clickable local preview link;
 7. stop before the Git checkpoint.
 
-Developer आधी बदल समजावेल, मग approved task तयार करेल, preview दाखवेल आणि commit
-करण्यापूर्वी थांबेल.
+Developer आधी बदल समजावेल, approved task तयार करेल आणि app locally run करेल.
+तो clickable `localhost` link देईल आणि शक्य असल्यास browser मध्ये उघडेल. मग
+commit करण्यापूर्वी थांबेल.
 
 ### Step 15 — Review the local preview
+
+Click the local URL supplied by the Developer, usually
+`http://localhost:3000`. If it did not open automatically, click the link or
+paste it into Chrome. Keep the Developer running while you review.
 
 Look at the website yourself. Check:
 

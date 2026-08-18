@@ -9,8 +9,9 @@ both assistants.
 Ask Deesha's Web Expert for a `DEESHA DEVELOPER BUILD TICKET` assigned to
 Claude. Paste that entire block into Claude while this repository is open.
 Claude says `Hard hat on. Ticket received.`, then synchronises the
-existing records, explains the scope, builds, checks and shows the local
-preview. It stops before saving the Git checkpoint.
+existing records, explains the scope, builds and checks. It starts or reuses
+the app, verifies the page responds, gives the clickable local URL and opens it
+in the browser when supported. It stops before saving the Git checkpoint.
 
 ## Approve a checkpoint
 
