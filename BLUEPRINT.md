@@ -1,7 +1,8 @@
 # Approved Website Blueprint
 
-> Paste the blueprint approved in the Deesha GPT here. This repository does not
-> interview you again. Claude or Codex builds approved tasks from this plan.
+> Claude or Codex imports the approved `DEESHA BUILD HANDOFF` here. The
+> participant does not create or synchronise this file manually. This
+> repository does not repeat the GPT interview.
 
 Blueprint status: `Not approved`
 

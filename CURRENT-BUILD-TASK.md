@@ -38,8 +38,8 @@ No authorised change.
 ## Git checkpoint
 
 - Suggested commit message: Not assigned
-- Approved to commit: No
-- Approved to push: No
+- Preview decision: Pending
+- Save-online decision: Pending
 
 ## Completion record
 

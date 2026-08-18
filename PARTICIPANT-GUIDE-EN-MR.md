@@ -217,44 +217,33 @@ Website Blueprint, खरी माहिती, scope आणि Trainer Gate A 
 
 ## Part C — Handover from GPT to Claude or Codex
 
-### Step 11 — Ask the GPT for the handover package
+### Step 11 — Ask the GPT for one handoff capsule
 
 Say:
 
 ```text
-Prepare the AI Builder Handoff for my next approved logical chunk. Give me the
-complete PROJECT-STATE, BLUEPRINT updates, APPROVAL-REGISTER updates and
-CURRENT-BUILD-TASK. I am using [Claude/Codex].
+Prepare one DEESHA BUILD HANDOFF for my next approved logical chunk. I am using
+[Claude/Codex]. Keep it copy-ready and give me only three next steps.
 ```
 
-GPT कडे पुढच्या approved छोट्या कामासाठी handoff package मागा. तुम्ही Claude
-की Codex वापरत आहात हे स्पष्ट सांगा.
+GPT कडे पुढच्या approved कामासाठी एक `DEESHA BUILD HANDOFF` मागा. तुम्ही Claude
+की Codex वापरत आहात ते स्पष्ट सांगा.
 
-### Step 12 — Update the shared files
+### Step 12 — Copy once; do not create files
 
-In VS Code, paste the GPT's latest blocks into:
+1. Copy the complete block from `DEESHA BUILD HANDOFF` to
+   `END DEESHA BUILD HANDOFF`.
+2. Open the same project folder in VS Code.
+3. Paste the block into your chosen AI builder.
 
-- `PROJECT-STATE.md`;
-- `BLUEPRINT.md` when the blueprint changed;
-- `APPROVAL-REGISTER.md`;
-- `CURRENT-BUILD-TASK.md`.
+That is all. The starter already contains `PROJECT-STATE.md`, `BLUEPRINT.md`,
+`APPROVAL-REGISTER.md`, `CURRENT-BUILD-TASK.md` and `PROGRESS.md`. Claude or
+Codex updates them together.
 
-Check that `CURRENT-BUILD-TASK.md` says:
+Complete handoff block एकदा copy करून VS Code मधील builder chat मध्ये paste
+करा. कोणतीही `.md` file manually create, rename किंवा synchronise करू नका.
 
-```text
-Task status: Approved to build
-Assigned builder: Claude
-```
-
-or:
-
-```text
-Task status: Approved to build
-Assigned builder: Codex
-```
-
-GPT ने दिलेले blocks योग्य files मध्ये paste करा. Builder चे नाव आणि task
-status बरोबर आहेत याची खात्री करा.
+🎉 **Milestone: Blueprint locked — आता तुमचे decisions build होणार आहेत.**
 
 ---
 
@@ -270,16 +259,17 @@ Use Claude or Codex for this task, not both.
 एका task साठी Claude किंवा Codex पैकी एकच वापरा. दोघांना एकाच unfinished
 कामावर काम देऊ नका.
 
-### Step 14 — Ask it to build and stop before saving
+### Step 14 — Let the builder import and build
 
-Use the copy-ready prompt in the relevant START file. The builder must:
+The pasted handoff tells the builder to:
 
-1. explain what will change;
-2. explain what will remain unchanged;
-3. build only the approved task;
-4. run relevant checks;
-5. show the local preview;
-6. stop before Git commit.
+1. read the shared contract;
+2. update the existing project records;
+3. repair stale derived progress automatically;
+4. explain what will change and stay unchanged;
+5. build only the approved task;
+6. run checks and show the local preview;
+7. stop before the Git checkpoint.
 
 Builder आधी बदल समजावेल, मग approved task तयार करेल, preview दाखवेल आणि commit
 करण्यापूर्वी थांबेल.
@@ -297,24 +287,28 @@ Look at the website yourself. Check:
 Website स्वतः पहा. मंजूर wireframe, खरी माहिती, मुख्य button, mobile view आणि
 अनपेक्षित बदल तपासा.
 
-Reply with one of:
+Reply with one of these simple choices:
 
-- **I approve this preview.**
+- **I love it — save online.**
 - **Do not save yet. Change…**
 - **I found a problem…**
 
+🎉 **Milestone: First reveal — तुमची idea आता browser मध्ये दिसते आहे.**
+
 ### Step 16 — Save the checkpoint
 
-After approval, ask the builder to:
+After **I love it — save online**, the builder will:
 
 1. run the final relevant checks;
 2. show the checkpoint summary;
-3. create one Git commit;
-4. push it to the `workshop` branch;
+3. update the completion records and website together;
+4. create one Git commit and push it to the `workshop` branch;
 5. report the commit identifier.
 
 मंजुरीनंतर builder final checks करेल, checkpoint summary दाखवेल, एक Git save
 point तयार करेल आणि `workshop` branch वर push करेल.
+
+No second governance-only commit should be required.
 
 ---
 

@@ -6,11 +6,16 @@ when possible. Explain unfamiliar technical terms simply.
 
 ## Sources of truth
 
-Read `PROJECT-STATE.md`, `APPROVAL-REGISTER.md`, `CURRENT-BUILD-TASK.md`,
-`PROGRESS.md` and `BLUEPRINT.md`, in that order. The Deesha GPT conducts
-discovery and records approvals. Do not repeat its interview or regenerate the
-strategy. If a required decision is missing or sources conflict, stop and ask
-the participant to resolve it with the GPT.
+Read `PROJECT-STATE.md`, `BLUEPRINT.md`, `CURRENT-BUILD-TASK.md`,
+`APPROVAL-REGISTER.md` and `PROGRESS.md`, in that order. The Deesha GPT conducts
+discovery. Do not repeat its interview or regenerate strategy.
+
+`PROJECT-STATE.md` owns approved decisions. `BLUEPRINT.md` expands the design.
+`CURRENT-BUILD-TASK.md` owns the current action. `APPROVAL-REGISTER.md` records
+approvals. `PROGRESS.md` is a derived beginner-friendly dashboard. When a
+participant pastes a `DEESHA BUILD HANDOFF`, update every affected record
+together. Repair stale derived progress from Project State automatically. Stop
+only for a real conflict in approved purpose, audience, CTA, scope or blueprint.
 
 ## Required loop
 
@@ -19,11 +24,14 @@ EXPLAIN -> BUILD -> PREVIEW -> APPROVE -> QC -> COMMIT -> PUSH -> VERCEL PREVIEW
 1. Explain the visible outcome and what stays unchanged.
 2. Build only the approved task; add no adjacent feature.
 3. Run the local site and give simple review instructions.
-4. Stop before committing and ask: `Approve / Request changes / Report a problem`.
+4. Stop before committing and ask: `Love it - save online / Change something / Report a problem`.
 5. After approval, run acceptance checks and relevant QC.
 6. Show the checkpoint summary and proposed commit message.
-7. Commit only after approval; never amend workshop history.
-8. Push the approved commit to the participant's branch.
+7. Record approval and completion evidence, then commit the website and related
+   governance updates together; never amend workshop history.
+8. Push that approved commit to the participant's branch. The preview approval
+   authorises this one commit-and-push checkpoint; do not create a later
+   governance-only commit to record push approval.
 9. Report the commit identifier and matching Vercel preview when available.
 
 If evidence is missing, record `Not Verified` and stop. A push does not prove
@@ -38,7 +46,7 @@ What stayed unchanged:
 QC performed:
 Files affected:
 Proposed commit message:
-Ready to save checkpoint? Yes / Revise
+Ready to save online? Love it / Revise / Report a problem
 ```
 
 Use `stage-N: participant-visible outcome` for commit messages. Never combine

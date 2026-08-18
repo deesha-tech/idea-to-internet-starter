@@ -1,33 +1,23 @@
 # Start building with Claude in VS Code
 
-Both Claude and Codex use the same `PROJECT-STATE.md`,
-`CURRENT-BUILD-TASK.md` and `APPROVAL-REGISTER.md` files. Set
-`Assigned builder: Claude` before starting a task. Do not give the same
-unfinished task to both assistants.
+Do not edit project-state files yourself. Claude imports the GPT handoff into
+the files already in this starter. Do not give the same unfinished task to
+both assistants.
 
-## First message
+## One-paste start
 
-```text
-Read CLAUDE.md, PROJECT-STATE.md, APPROVAL-REGISTER.md,
-CURRENT-BUILD-TASK.md and PROGRESS.md. Explain our current position in simple
-terms. Do not change any file until CURRENT-BUILD-TASK.md contains an approved
-task assigned to Claude.
-```
-
-## Build an approved task
-
-```text
-Build only the approved task in CURRENT-BUILD-TASK.md. First explain what you
-will change and what you will preserve. Then implement it, run the relevant
-checks and show me how to review the local preview. Stop before committing.
-```
+Ask the Deesha GPT for a `DEESHA BUILD HANDOFF` assigned to Claude. Paste that
+entire block into Claude while this repository is open. Claude synchronises the
+existing records, explains the scope, builds, checks and shows the local
+preview. It stops before saving the Git checkpoint.
 
 ## Approve a checkpoint
 
 ```text
-I approve this preview. Show me the checkpoint summary, run the final relevant
-checks, save one logical Git checkpoint and push it. Then report the commit and
-the matching Vercel preview. Do not promote it to production.
+I love this preview. Save this one logical checkpoint online: update the
+completion records, run final relevant checks, commit the website and related
+records together, push once, and report the commit plus matching Vercel
+preview. Do not promote it to production.
 ```
 
 If changes are needed:

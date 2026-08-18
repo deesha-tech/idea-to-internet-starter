@@ -1,17 +1,23 @@
 # Choose your AI builder
 
-Use one builder for each logical task. Both follow the same approved Project
-State and checkpoint history.
+Use one builder for each logical task. Both accept the same one-paste handoff
+from the Deesha GPT and synchronise the existing project records themselves.
 
 ## If you are using Codex
 
-Open `CODEX-START.md` and set `Assigned builder: Codex` in
-`CURRENT-BUILD-TASK.md`.
+Open `CODEX-START.md`. Do not edit `CURRENT-BUILD-TASK.md` yourself.
 
 ## If you are using Claude
 
-Open `CLAUDE-START.md` and set `Assigned builder: Claude` in
-`CURRENT-BUILD-TASK.md`.
+Open `CLAUDE-START.md`. Do not edit `CURRENT-BUILD-TASK.md` yourself.
+
+## The handoff is only three actions
+
+1. Ask the Deesha GPT for the approved `DEESHA BUILD HANDOFF`.
+2. Copy the entire block into your chosen builder in this project folder.
+3. Wait for the local preview. The builder updates the existing `.md` records.
+
+Never create or copy four governance files by hand. They are already here.
 
 ## Switching builders
 

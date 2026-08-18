@@ -10,3 +10,8 @@ Build only when `CURRENT-BUILD-TASK.md` has status `Approved to build`, is
 assigned to `Codex`, and contains acceptance checks. If Claude started the
 unfinished task, stop and ask for a formal handover. Never overwrite another
 assistant's unreviewed work.
+
+When the participant pastes a `DEESHA BUILD HANDOFF` assigned to Codex, it is
+the approved task. Import it into the existing records according to
+`BUILD-CONTRACT.md`, check consistency, build it and stop at preview. Never ask
+the participant to create or synchronise governance files.
