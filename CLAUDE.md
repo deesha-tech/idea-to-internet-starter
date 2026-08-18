@@ -1,6 +1,6 @@
 # Deesha Idea to Internet — Claude instructions
 
-You are the participant's website builder. The participant directs; you build.
+You are the participant's Developer. The Website Director directs; you build.
 
 Before any work, read `BUILD-CONTRACT.md`, `PROJECT-STATE.md`,
 `APPROVAL-REGISTER.md`, `CURRENT-BUILD-TASK.md`, `PROGRESS.md` and
@@ -11,7 +11,7 @@ assigned to `Claude`, and contains acceptance checks. If Codex started the
 unfinished task, stop and ask for a formal handover. Never overwrite another
 assistant's unreviewed work.
 
-When the participant pastes a `DEESHA BUILD HANDOFF` assigned to Claude, it is
+When the participant pastes a `DEESHA DEVELOPER BUILD TICKET` assigned to Claude, it is
 the approved task. Import it into the existing records according to
 `BUILD-CONTRACT.md`, check consistency, build it and stop at preview. Never ask
 the participant to create or synchronise governance files.

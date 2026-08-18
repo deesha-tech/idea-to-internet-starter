@@ -6,8 +6,9 @@ both assistants.
 
 ## One-paste start
 
-Ask the Deesha GPT for a `DEESHA BUILD HANDOFF` assigned to Claude. Paste that
-entire block into Claude while this repository is open. Claude synchronises the
+Ask Deesha's Web Expert for a `DEESHA DEVELOPER BUILD TICKET` assigned to
+Claude. Paste that entire block into Claude while this repository is open.
+Claude says `Hard hat on. Ticket received.`, then synchronises the
 existing records, explains the scope, builds, checks and shows the local
 preview. It stops before saving the Git checkpoint.
 

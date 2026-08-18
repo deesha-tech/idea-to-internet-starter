@@ -64,8 +64,8 @@ Please help me check this foundation first. Then recommend the most suitable web
     <main className="playbook">
       <p className="pb-kicker">Foundation complete · पाया तयार</p>
       <h1>Your GPT starting prompt is ready</h1>
-      <p className="pb-lead">Copy this once and paste it into a new conversation with the Deesha GPT.</p>
-      <div className="pb-flow"><span>Playbook ✓</span><b>→</b><span>Deesha GPT</span><b>→</b><span>Claude / Codex</span></div>
+      <p className="pb-lead">Copy this once and paste it into a new conversation with the Deesha's Web Expert.</p>
+      <div className="pb-flow"><span>Playbook ✓</span><b>→</b><span>Deesha's Web Expert</span><b>→</b><span>Developer</span></div>
       <textarea className="pb-prompt" value={prompt} readOnly aria-label="Generated GPT prompt" />
       <div className="pb-actions">
         <button className="pb-primary" type="button" onClick={copyPrompt}>{copied ? 'Copied ✓' : 'Copy prompt'}</button>

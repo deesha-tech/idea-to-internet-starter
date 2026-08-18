@@ -5,9 +5,9 @@ yourself. Codex imports the GPT handoff into the files already in this starter.
 
 ## One-paste start
 
-Open this repository in VS Code. Ask the Deesha GPT for a `DEESHA BUILD
-HANDOFF` assigned to Codex. Paste that entire block into Codex. Nothing else is
-needed.
+Open this repository in VS Code. Ask Deesha's Web Expert for a `DEESHA
+DEVELOPER BUILD TICKET` assigned to Codex. Paste that entire block into Codex.
+Codex acknowledges it with: `Hard hat on. Ticket received.`
 
 Codex will:
 

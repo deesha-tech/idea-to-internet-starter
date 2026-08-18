@@ -2,19 +2,21 @@
 
 ## English + मराठी participant guide
 
-You do not need coding experience. You will make the decisions, the Deesha GPT
+You do not need coding experience. You will make the decisions, the Deesha's Web Expert
 will guide them, and Claude or Codex will build the approved website.
 
-तुम्हाला coding चा अनुभव असण्याची गरज नाही. निर्णय तुम्ही घ्याल, Deesha GPT
+तुम्हाला coding चा अनुभव असण्याची गरज नाही. निर्णय तुम्ही घ्याल, Deesha's Web Expert
 तुम्हाला मार्गदर्शन करेल आणि तुम्ही मंजूर केलेली website Claude किंवा Codex
 तयार करेल.
 
-## Remember these three roles
+## Meet your website team
 
-| Tool | Simple role | सोप्या भाषेत भूमिका |
+| Name | Simple role | सोप्या भाषेत भूमिका |
 |---|---|---|
-| Deesha GPT | Think, choose and approve | विचार, पर्याय आणि मंजुरी |
-| Claude or Codex | Build and test | website तयार करणे आणि तपासणे |
+| You — Website Director | Decide and approve | निर्णय आणि मंजुरी |
+| Deesha's Web Expert | Recommend and prepare Build Tickets | पर्याय आणि Build Ticket |
+| Developer — Claude or Codex | Build and test | website तयार करणे आणि तपासणे |
+| Trainer — Launch Guide | Help, explain and celebrate | मदत, मार्गदर्शन आणि celebration |
 | GitHub + Vercel | Save and show online | काम सुरक्षित ठेवणे आणि online preview दाखवणे |
 
 The loop is always:
@@ -44,10 +46,10 @@ You need:
 - VS Code;
 - Node.js;
 - access to Claude or Codex in VS Code;
-- the Deesha GPT link.
+- the Deesha's Web Expert link.
 
 तुमच्याकडे GitHub आणि Vercel account, VS Code, Node.js, VS Code मध्ये Claude
-किंवा Codex आणि Deesha GPT ची link तयार असावी.
+किंवा Codex आणि Deesha's Web Expert ची link तयार असावी.
 
 Do not buy a new subscription until the Deesha team confirms what is required.
 
@@ -130,17 +132,17 @@ repository import करा आणि baseline starter deploy करा. मि�
 
 ### Step 6 — Use a workshop branch
 
-Ask your chosen AI builder or trainer to create and switch to a branch named
+Ask your chosen Developer or trainer to create and switch to a branch named
 `workshop`. All workshop checkpoints are pushed to this branch. Vercel should
 create preview deployments from it. Keep `main` for the final approved launch.
 
-तुमच्या AI builder किंवा trainer ला `workshop` नावाची branch तयार करून ती
+तुमच्या Developer किंवा trainer ला `workshop` नावाची branch तयार करून ती
 select करायला सांगा. Workshop मधील सर्व save points या branch वर जातील.
 Final मंजुरी होईपर्यंत `main` branch बदलू नका.
 
 ---
 
-## Part B — Foundation Playbook, then Deesha GPT
+## Part B — Foundation Playbook, then Deesha's Web Expert
 
 ### Step 7 — Complete the visual Foundation Playbook
 
@@ -164,15 +166,15 @@ The playbook asks only for the foundation:
 - facts, material or links you already have.
 
 Playbook layout, colours किंवा technical components विचारणार नाही. ते निर्णय
-Deesha GPT visual options आणि recommendation सह पुढे हाताळेल.
+Deesha's Web Expert visual options आणि recommendation सह पुढे हाताळेल.
 
-### Step 8 — Paste the prompt into the Deesha GPT
+### Step 8 — Paste the prompt into the Deesha's Web Expert
 
-Open the shared Deesha GPT, start a **new chat**, paste the complete copied
+Open the shared Deesha's Web Expert, start a **new chat**, paste the complete copied
 prompt and send it. The GPT should briefly confirm the foundation and continue
 with one simple question. It should not ask you to repeat the same answers.
 
-Shared Deesha GPT उघडा, **new chat** सुरू करा, पूर्ण copied prompt paste करून
+Shared Deesha's Web Expert उघडा, **new chat** सुरू करा, पूर्ण copied prompt paste करून
 Send करा. GPT foundation थोडक्यात confirm करेल आणि एका वेळी एक सोपा प्रश्न
 विचारेल.
 
@@ -217,39 +219,40 @@ Website Blueprint, खरी माहिती, scope आणि Trainer Gate A 
 
 ## Part C — Handover from GPT to Claude or Codex
 
-### Step 11 — Ask the GPT for one handoff capsule
+### Step 11 — Ask the Web Expert for one Developer Build Ticket
 
 Say:
 
 ```text
-Prepare one DEESHA BUILD HANDOFF for my next approved logical chunk. I am using
+Prepare one DEESHA DEVELOPER BUILD TICKET for my next approved logical chunk. I am using
 [Claude/Codex]. Keep it copy-ready and give me only three next steps.
 ```
 
-GPT कडे पुढच्या approved कामासाठी एक `DEESHA BUILD HANDOFF` मागा. तुम्ही Claude
+GPT कडे पुढच्या approved कामासाठी एक `DEESHA DEVELOPER BUILD TICKET` मागा. तुम्ही Claude
 की Codex वापरत आहात ते स्पष्ट सांगा.
 
 ### Step 12 — Copy once; do not create files
 
-1. Copy the complete block from `DEESHA BUILD HANDOFF` to
-   `END DEESHA BUILD HANDOFF`.
+1. Copy the complete block from `DEESHA DEVELOPER BUILD TICKET` to
+   `END DEESHA DEVELOPER BUILD TICKET`.
 2. Open the same project folder in VS Code.
-3. Paste the block into your chosen AI builder.
+3. Paste the block into your chosen Developer.
 
 That is all. The starter already contains `PROJECT-STATE.md`, `BLUEPRINT.md`,
 `APPROVAL-REGISTER.md`, `CURRENT-BUILD-TASK.md` and `PROGRESS.md`. Claude or
 Codex updates them together.
 
-Complete handoff block एकदा copy करून VS Code मधील builder chat मध्ये paste
+Complete handoff block एकदा copy करून VS Code मधील Developer chat मध्ये paste
 करा. कोणतीही `.md` file manually create, rename किंवा synchronise करू नका.
 
-🎉 **Milestone: Blueprint locked — आता तुमचे decisions build होणार आहेत.**
+🎉 **Blueprint locked — Build Ticket ready! Web Expert finished the thinking.
+Developer, hard hat on.**
 
 ---
 
 ## Part D — Build one approved chunk
 
-### Step 13 — Open only one AI builder
+### Step 13 — Open only one Developer
 
 Use Claude or Codex for this task, not both.
 
@@ -259,9 +262,9 @@ Use Claude or Codex for this task, not both.
 एका task साठी Claude किंवा Codex पैकी एकच वापरा. दोघांना एकाच unfinished
 कामावर काम देऊ नका.
 
-### Step 14 — Let the builder import and build
+### Step 14 — Let the Developer import and build
 
-The pasted handoff tells the builder to:
+The pasted handoff tells the Developer to:
 
 1. read the shared contract;
 2. update the existing project records;
@@ -271,7 +274,7 @@ The pasted handoff tells the builder to:
 6. run checks and show the local preview;
 7. stop before the Git checkpoint.
 
-Builder आधी बदल समजावेल, मग approved task तयार करेल, preview दाखवेल आणि commit
+Developer आधी बदल समजावेल, मग approved task तयार करेल, preview दाखवेल आणि commit
 करण्यापूर्वी थांबेल.
 
 ### Step 15 — Review the local preview
@@ -289,15 +292,15 @@ Website स्वतः पहा. मंजूर wireframe, खरी मा�
 
 Reply with one of these simple choices:
 
-- **I love it — save online.**
-- **Do not save yet. Change…**
-- **I found a problem…**
+- **Love it — save online.**
+- **Almost! One small change…**
+- **Something looks suspicious…**
 
-🎉 **Milestone: First reveal — तुमची idea आता browser मध्ये दिसते आहे.**
+🎉 **First reveal — तुमची idea आता browser मध्ये दिसते आहे.**
 
 ### Step 16 — Save the checkpoint
 
-After **I love it — save online**, the builder will:
+After **I love it — save online**, the Developer will:
 
 1. run the final relevant checks;
 2. show the checkpoint summary;
@@ -305,7 +308,7 @@ After **I love it — save online**, the builder will:
 4. create one Git commit and push it to the `workshop` branch;
 5. report the commit identifier.
 
-मंजुरीनंतर builder final checks करेल, checkpoint summary दाखवेल, एक Git save
+मंजुरीनंतर Developer final checks करेल, checkpoint summary दाखवेल, एक Git save
 point तयार करेल आणि `workshop` branch वर push करेल.
 
 No second governance-only commit should be required.
@@ -322,10 +325,10 @@ matches the commit just pushed.
 `workshop` branch वरून तयार झालेली Vercel preview link उघडा. ती नवीन commit शी
 जुळते का ते तपासा.
 
-If no preview appears, do not say deployment passed. Ask the builder or trainer
+If no preview appears, do not say deployment passed. Ask the Developer or trainer
 to inspect the Vercel deployment and logs.
 
-Preview आली नाही तर deployment complete समजू नका. Builder किंवा trainer कडून
+Preview आली नाही तर deployment complete समजू नका. Developer किंवा trainer कडून
 Vercel deployment आणि logs तपासून घ्या.
 
 ### Step 18 — Return evidence to the GPT
@@ -335,7 +338,7 @@ Give the GPT:
 - commit identifier;
 - Vercel preview URL;
 - screenshots if requested;
-- builder's QC summary;
+- Developer's QC summary;
 - anything that looks wrong.
 
 Commit ID, Vercel preview link, screenshots आणि QC summary GPT ला द्या. GPT
@@ -351,7 +354,7 @@ The GPT will return `Pass`, `Needs Fix`, `Not Verified` or
 Repeat one logical chunk at a time:
 
 ```text
-GPT decision -> Builder task -> Local preview -> Approval -> QC
+GPT decision -> Developer task -> Local preview -> Approval -> QC
 -> Commit -> Push -> Vercel preview -> GPT review
 ```
 
@@ -371,7 +374,7 @@ Final launch gate मंजूर झाल्यानंतरच website `mai
 
 1. Stop—do not keep clicking or repeating commands.
 2. Take a screenshot of the visible error without exposing private information.
-3. Tell the GPT or builder what you expected and what happened.
+3. Tell the GPT or Developer what you expected and what happened.
 4. Ask for one next step only.
 5. Contact the workshop trainer if login, GitHub or Vercel access is blocked.
 

@@ -58,7 +58,7 @@ Vercel आपकी website files को live preview link में बदल�
 
 ## 4 — Visual Studio Code install करें
 
-VS Code वह workspace है जहाँ website files और AI builder साथ में होंगे।
+VS Code वह workspace है जहाँ website files और Developer साथ में होंगे।
 
 1. Official [VS Code download page](https://code.visualstudio.com/download) खोलें।
 2. **Windows:** अपने computer के लिए **User Installer** चुनें। अधिकतर laptops
@@ -89,7 +89,7 @@ npm -v
 ✅ **Ready when / तैयार कब:** दोनों commands version number दिखाते हैं। Exact
 version जरूरी नहीं है। “not found” या “not recognised” नहीं दिखना चाहिए।
 
-## 6 — एक AI builder चुनकर install करें
+## 6 — एक Developer चुनकर install करें
 
 Trainer द्वारा confirm किया हुआ **एक** option install करें। दोनों जरूरी नहीं।
 
@@ -133,10 +133,10 @@ team के कहे बिना subscription न खरीदें।
 - [ ] `npm -v` version दिखाता है
 - [ ] Codex **या** Claude VS Code में reply देता है
 - [ ] VS Code में GitHub sign-in है
-- [ ] Trainer की दी हुई Deesha GPT link खुलती है
+- [ ] Trainer की दी हुई Deesha's Web Expert link खुलती है
 
 सभी boxes tick होने पर आप workshop-ready हैं। VS Code Welcome screen और AI
-builder panel का एक screenshot approved workshop help channel पर भेजें। उसमें
+Developer panel का एक screenshot approved workshop help channel पर भेजें। उसमें
 password या private code दिखाई नहीं देना चाहिए।
 
 ## कुछ काम न करे तो / If something fails

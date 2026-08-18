@@ -12,7 +12,7 @@ export default function Home() {
         <h2>Begin with your visual playbook</h2>
         <p>
           Answer a few simple foundation questions, copy the prompt it creates,
-          and paste it into the Deesha GPT. The GPT will then guide your design
+          and paste it into the Deesha's Web Expert. The GPT will then guide your design
           and website decisions.
         </p>
         <a className="starter-action" href="/playbook">Open my Foundation Playbook →</a>

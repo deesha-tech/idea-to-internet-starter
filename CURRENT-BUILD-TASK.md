@@ -1,11 +1,11 @@
-# Current AI Builder Task
+# Current Developer Build Ticket
 
 Task status: `Not ready`
 
-> The Deesha GPT replaces this template after a participant approves a build
+> The Deesha's Web Expert replaces this template after a participant approves a build
 > decision. Claude and Codex must not build while the status is `Not ready`.
 
-Assigned builder: `Not assigned` <!-- Claude / Codex -->
+Assigned Developer: `Not assigned` <!-- Claude / Codex -->
 
 ## Stage
 

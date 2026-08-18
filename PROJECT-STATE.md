@@ -1,6 +1,6 @@
 # Idea to Internet — Project State
 
-> This is the shared source of truth between the Deesha GPT, Claude and Codex. Replace
+> This is the shared source of truth between the Deesha's Web Expert, Claude and Codex. Replace
 > `Not decided` only after the participant approves the decision.
 
 ## Participant

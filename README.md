@@ -23,7 +23,7 @@ opens the complete guide directly.
    **"Starter ready"**.
 4. Open `PARTICIPANT-GUIDE-EN-MR.md` and complete the pre-workshop checks.
 5. Open the visual Foundation Playbook at **localhost:3000/playbook**.
-6. Complete it, copy its prompt and paste that into the Deesha GPT.
+6. Complete it, copy its prompt and paste that into the Deesha's Web Expert.
 7. After approval, bring the GPT's Build Task here.
 8. Open `AI-BUILDER-START.md`, choose Claude or Codex, and follow its guide.
 
@@ -32,10 +32,10 @@ opens the complete guide directly.
 - `AGENTS.md` — Codex's working agreement.
 - `CLAUDE.md` — Claude's working agreement.
 - `BUILD-CONTRACT.md` — the shared build, preview, QC and Git rules.
-- `PROJECT-STATE.md` — approved decisions shared with the Deesha GPT.
-- `CURRENT-BUILD-TASK.md` — the one change the assigned builder may build.
+- `PROJECT-STATE.md` — approved decisions shared with the Deesha's Web Expert.
+- `CURRENT-BUILD-TASK.md` — the one change the assigned Developer may build.
 - `APPROVAL-REGISTER.md` — stage and checkpoint evidence.
-- `BLUEPRINT.md` — the plan approved in the Deesha GPT.
+- `BLUEPRINT.md` — the plan approved in the Deesha's Web Expert.
 - `PROGRESS.md` — how far your website has come.
 - `PARTICIPANT-GUIDE-EN-MR.md` — detailed English + मराठी instructions.
 

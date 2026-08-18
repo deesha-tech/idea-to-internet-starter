@@ -1,4 +1,4 @@
-# Shared AI Builder Contract
+# Shared Developer Contract
 
 This is a participant-owned website from Deesha's Idea to Internet SkillLab.
 Use clear British English. Match the language preference in `PROJECT-STATE.md`
@@ -7,15 +7,17 @@ when possible. Explain unfamiliar technical terms simply.
 ## Sources of truth
 
 Read `PROJECT-STATE.md`, `BLUEPRINT.md`, `CURRENT-BUILD-TASK.md`,
-`APPROVAL-REGISTER.md` and `PROGRESS.md`, in that order. The Deesha GPT conducts
+`APPROVAL-REGISTER.md` and `PROGRESS.md`, in that order. The Deesha's Web Expert conducts
 discovery. Do not repeat its interview or regenerate strategy.
 
 `PROJECT-STATE.md` owns approved decisions. `BLUEPRINT.md` expands the design.
 `CURRENT-BUILD-TASK.md` owns the current action. `APPROVAL-REGISTER.md` records
 approvals. `PROGRESS.md` is a derived beginner-friendly dashboard. When a
-participant pastes a `DEESHA BUILD HANDOFF`, update every affected record
+participant pastes a `DEESHA DEVELOPER BUILD TICKET`, update every affected record
 together. Repair stale derived progress from Project State automatically. Stop
 only for a real conflict in approved purpose, audience, CTA, scope or blueprint.
+Begin a valid ticket with `Hard hat on. Ticket received.` Then summarise its
+scope in five simple lines before changing files.
 
 ## Required loop
 
@@ -24,7 +26,7 @@ EXPLAIN -> BUILD -> PREVIEW -> APPROVE -> QC -> COMMIT -> PUSH -> VERCEL PREVIEW
 1. Explain the visible outcome and what stays unchanged.
 2. Build only the approved task; add no adjacent feature.
 3. Run the local site and give simple review instructions.
-4. Stop before committing and ask: `Love it - save online / Change something / Report a problem`.
+4. Stop before committing and ask: `Love it - save online / Almost! One small change / Something looks suspicious`.
 5. After approval, run acceptance checks and relevant QC.
 6. Show the checkpoint summary and proposed commit message.
 7. Record approval and completion evidence, then commit the website and related

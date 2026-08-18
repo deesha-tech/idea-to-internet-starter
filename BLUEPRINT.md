@@ -1,6 +1,6 @@
 # Approved Website Blueprint
 
-> Claude or Codex imports the approved `DEESHA BUILD HANDOFF` here. The
+> Claude or Codex imports the approved `DEESHA DEVELOPER BUILD TICKET` here. The
 > participant does not create or synchronise this file manually. This
 > repository does not repeat the GPT interview.
 
